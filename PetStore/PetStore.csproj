@@ -12,6 +12,7 @@
     <None Remove="Microsoft.Extensions.ApiDescription.Client" />
     <None Remove="Newtonsoft.Json" />
     <None Remove="petstore.json" />
+    <None Remove="OpenAPIs\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="NSwag.ApiDescription.Client" Version="13.0.5">
@@ -23,6 +24,9 @@
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
     <PackageReference Include="Newtonsoft.Json" Version="12.0.2" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="OpenAPIs\" />
   </ItemGroup>
   <ItemGroup>
     <OpenApiReference Include="petstore.json">
