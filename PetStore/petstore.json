@@ -40,7 +40,6 @@
   ],
   "paths": {
     "/pet": {
-      "x-visibility":  "internal",
       "put": {
         "tags": [ "pet" ],
         "summary": "Update an existing pet",
@@ -68,7 +67,8 @@
               "CUSTOM": {
                 "schema": {
                   "type": "integer"
-                }
+                },
+                "required": true
               }
             },
             "content": {
